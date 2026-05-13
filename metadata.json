@@ -1,0 +1,6 @@
+{
+  "name": "CyberPulse AI",
+  "description": "SaaS that collects cybersecurity news from the last 24h and generates social media posts/images.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

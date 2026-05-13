@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;800&family=Outfit:wght@400;600;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-zinc-300;
+  }
+}
+
+@layer utilities {
+  .cyber-glow {
+    text-shadow: 0 0 10px rgba(16, 185, 129, 0.4), 0 0 20px rgba(16, 185, 129, 0.2);
+  }
+  .cyber-border {
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+  }
+}
